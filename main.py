@@ -1,6 +1,8 @@
 from fastmcp import FastMCP
 import os
-import aiosqlite  # Changed: sqlite3 → aiosqlite
+import aiosqlite 
+import sqlite3
+# Changed: sqlite3 → aiosqlite
 import tempfile
 # Use temporary directory which should be writable
 TEMP_DIR = tempfile.gettempdir()
