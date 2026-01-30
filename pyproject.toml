@@ -1,9 +1,17 @@
 [project]
+<<<<<<< HEAD
 name = "expense-tracker"
+=======
+name = "test-remote-server"
+>>>>>>> 30ceb26d22a22ee5a346ae961b3cfe5614ac26a6
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+<<<<<<< HEAD
+=======
+    "aiosqlite>=0.22.1",
+>>>>>>> 30ceb26d22a22ee5a346ae961b3cfe5614ac26a6
     "fastmcp>=2.14.4",
 ]
